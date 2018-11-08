@@ -1,0 +1,14 @@
+{
+    "name" : "Boilerplate",
+    "author" : "FeldmannJR",
+    "description" : "boilerplate front end, desenvolvido no minicurso da sacomp",
+    "scripts":{
+        "devDependencies" : {
+            
+        },
+        "dependencies" :{
+            
+        }
+
+    }
+}
