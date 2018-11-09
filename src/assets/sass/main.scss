@@ -1,14 +1,11 @@
-@import './componets/header.scss';
+@import './components/header.scss';
 @import './core/variables.scss';
+@import './components/banner.scss';
+@import './core/reset.scss';
 
 h1{
-    color: #00FF00;
+
 }
-div{
-      .container{
-        background-color: $main_color;
-        h1{
-            color:blue;
-        }
-    }
+p{
+    color:white;
 }

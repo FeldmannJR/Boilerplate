@@ -1,0 +1,28 @@
+.banner{
+    height: 400px;
+    width:100%;
+    background-color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    nav{
+        margin-right:10%;
+        margin-left:10%;
+        margin-top:1em;
+        li{
+            display: inline;
+            margin-right:1em;
+        }
+    }
+    .middlebutton{
+        margin:auto;
+        background-color:red;
+        padding:10px;
+        border: 2px solid black;
+        color: black;
+    }
+}
+
+a, a:visited, a:hover, a:active {
+    color: gray;
+    text-decoration: inherit;
+}

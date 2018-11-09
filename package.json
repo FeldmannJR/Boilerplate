@@ -5,10 +5,10 @@
     "scripts": {
         "watch": "npm-run-all --parallel watch:views watch:sass watch:js",
         "watch:views": "chokidar src/views --command \"npm run build:views\"",
-        "watch:sass": "chokidar assets/sass --command \"npm run build:sass\"",
+        "watch:sass": "chokidar src/assets/sass/* --command \"npm run build:sass\"",
         "watch:js": "chokidar asssets/js --command \"npm run build:js\"",
         "build": "npm-run-all --sequential build:views build:sass build:js",
-        "build:sass": "node-sass --output-style compressed src/assets/sass/main.scss public/css/main.css",
+        "build:sass": "node-sass src/assets/sass/main.scss public/css/main.css",
         "build:views": "pug src/views/ --out public/ --pretty",
         "build:js": "eslint src/assets/js/*.js & babel src/assets/js/main.js --out-file public/js/main.js",
         "server": "browser-sync start --server \"public\" --files \"public\"",

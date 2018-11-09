@@ -1,1 +1,57 @@
-header{color:red}header a:hover{color:#00ff00}header a .active{color:paleturquoise}header a{background-color:#ffffff}h1{color:#00FF00}div .container{background-color:red}div .container h1{color:blue}
+.banner {
+  height: 400px;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column; }
+  .banner nav {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1em; }
+    .banner nav li {
+      display: inline;
+      margin-right: 1em; }
+  .banner .middlebutton {
+    margin: auto;
+    background-color: red;
+    padding: 10px;
+    border: 2px solid black;
+    color: black; }
+
+a, a:visited, a:hover, a:active {
+  color: gray;
+  text-decoration: inherit; }
+
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  color: white; }
